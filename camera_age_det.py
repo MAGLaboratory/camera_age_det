@@ -63,7 +63,7 @@ for camera in cameras:
     filename = listdir(daypath);
     filename.sort(reverse=True);
     if (not filename):
-        print ("no files within camera directory \"" + datepath + "\"!");
+        print ("no files within camera directory \"" + daypath + "\"!");
         exit(1);
     if (debuglevel > 1):
         print("Latest filename is: \"" + filename[0] + "\"")
