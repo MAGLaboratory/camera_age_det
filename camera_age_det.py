@@ -15,7 +15,15 @@ debuglevel = 1
 
 # paths
 external_drive = "/media/external/cameras"
-cameras = ["Camera1","Camera2"]
+cameras = [
+    "Camera1",
+    "Camera2",
+    "Camera3",
+    "Camera4",
+    "Camera5",
+    "Camera6",
+    "Camera7"
+]
 
 # influxdb connection
 influxdb = InfluxDBClient(host="jane.maglab", port=8086)
